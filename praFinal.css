@@ -1,0 +1,267 @@
+html{
+   scroll-behavior: smooth;
+   font-family: optima, avanta-garde, monaco, sans-serif; 
+   text-transform: uppercase;
+   font-size: 12px;
+}
+
+body{
+   background-color: white;
+   margin: auto;
+   overflow-x: hidden;
+   padding: 0px;
+}
+
+#main{
+	height: 100vh;
+	width: 100%; 
+	position: relative;
+}
+
+.logo{
+	float: left;
+	padding-top: 30px;
+	padding-left: 140px;
+	margin: auto;
+	opacity: 0.8;
+}
+
+nav{
+	background-color: grey;
+    display: flex;
+    float: right;
+    padding-top: 30px;
+    padding-right: 130px;
+    margin: auto;
+    color: white;
+    opacity: 0.8;
+}
+
+nav div{
+	padding-left: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+}
+
+.mainPage{
+	background-image: url("home.jpg");
+	background-blend-mode: darken;
+	background-repeat: no-repeat;
+	background-size: 1500px;
+	height: 100vh;
+    background-color: grey;
+    text-align: center; 
+}
+
+.text{
+	padding-top: 250px;
+	text-align: center;
+}
+
+h1{
+	color: white;
+	font-size: 35px;
+}
+
+h5{
+	color: white;
+	font-size: 11px;
+}
+
+button{
+	background-color: transparent;
+	border: 0.8px solid white;
+	color: white; 
+	padding: 7px 20px 7px 20px;
+}
+
+#secPage{
+	width: 75%;
+	height: 100%;
+	display: block;
+	background-color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.textoSec{
+	padding-top: 10px;
+	padding-bottom: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ourstory{
+	width: 200px;
+	height: 2px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#secPage h1{
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#team{
+	width: 100%;
+	height: 100%;
+	background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    text-align: center;
+    margin-left: 0; 
+    margin-right: 0;
+    justify-content: flex-start;
+}
+
+#team img{
+	width: 140px;
+	height: 140px;
+}
+
+#team div{
+	width: 250px;
+	height: 100%;
+	max-width: 100%;
+	position: relative;
+	margin-bottom: 10px;
+	align-items: center;
+	float: left;
+	padding: 30px;
+}
+
+p{
+	word-spacing: 1px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.fa-twitter {
+  padding: 10px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  background: white;
+  color: black;
+}
+
+#finPage{
+	display: block;
+	align-content: center;
+	width: 100%;
+	height: 100%;
+	float: left; 
+}
+
+#finPage h1{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.serv{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#contacto{
+	width: 100%;
+	height: 100%; 
+	font-family: optima, avanta-garde, monaco, sans-serif; 
+	font-size: 13px;
+	display: flex;
+	flex-wrap: wrap;
+	float: left;
+	text-transform: uppercase;
+	padding-top: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#formulario{
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 60px;	
+}
+
+label{
+	float: left;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-transform: uppercase;
+	color: grey;
+}
+
+input{
+	float: left;
+	width: 400px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+
+#contactText{
+	width: 230px;
+	margin-left: 0;
+	margin-right: auto;
+	padding-left: 40px;
+    color: grey;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#contactText h5{
+	color: black;
+}
+
+#contactText p{
+	text-align: left; 
+}
+
+#contacto #socMedia {
+	width: 100%;
+	height: 100%;
+	background-color: black; 
+    display: block;
+    text-align: center; 
+    padding: 100px;
+}
+
+
+#socMedia .fa {
+  padding: 20px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: grey;
+  color: black;
+  border-radius: 40px;
+  font-size: 15px; 
+}
+
+#socMedia p{
+	color: gray;
+	text-align: center;
+	text-transform: none;
+	font-size: 15px; 
+}
